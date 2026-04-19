@@ -1,0 +1,62 @@
+# ── Python ──────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# ── Virtual Environments ───────────────────────────────
+.venv/
+.venv38/
+venv/
+env/
+ENV/
+
+# ── Distribution / Packaging ──────────────────────────
+dist/
+build/
+*.egg-info/
+*.egg
+*.whl
+sdist/
+
+# ── Environment Variables ─────────────────────────────
+.env
+!.env.example
+
+# ── IDE / Editor ──────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── OS Files ──────────────────────────────────────────
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ── Logs ──────────────────────────────────────────────
+*.log
+logs/
+
+# ── Database ──────────────────────────────────────────
+*.db
+*.sqlite3
+
+# ── Model Weights / Caches ────────────────────────────
+*.pt
+*.pth
+*.onnx
+*.h5
+.hsemotion/
+
+# ── Jupyter ───────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── pytest / coverage ─────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ── mypy ──────────────────────────────────────────────
+.mypy_cache/
